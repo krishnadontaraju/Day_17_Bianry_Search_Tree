@@ -21,5 +21,6 @@ public class BinarySearchTreeTest {
 
         int size = customBinaryTree.getSize();
         Assertions.assertEquals(13,size);
+        Assertions.assertTrue(customBinaryTree.findNode(16));
     }
 }
